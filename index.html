@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- head section-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +12,32 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<!-- Body section -->
 <body>
     <div class="container">
-            <div>
-                <div class="nav-bar">
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div> 
-            </div>
 
-            <div class="banner" role="banner">
-                <img src="canyon.jpg" alt="canyon" >
-                    <div class="banner_text">
-                        <h1> Dimple </h1>
-                        <p> Software Engineer </p>
-                    </div>
-            </div>       
-    <div>
-        <div id="about" class="container">
-            <div>
-                <div>
-                    <h2 class="text-warning">ABOUT ME</h2>
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-bar">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div> 
+        </nav>
+
+            <!-- banner -->
+        <div class="banner" role="banner">
+            <img src="canyon.jpg" alt="canyon" >
+                <div class="banner_text">
+                    <h1> Dimple </h1>
+                    <p> Software Engineer </p>
+                </div>
+        </div> 
+
+        <!-- main section about me-->
+        <main>
+            <div id="about" class="container">
+                <article>               
+                    <h2 class="text-warning">About Me</h2>
                     <p> I am a software professional from <strong class="text-warning">Phoenix, Arizona</strong></p>.
                     
                     <p>I like to design, develop and enhance user experience
@@ -38,12 +45,12 @@
                     <p> Solving challenges, disussing ideas with like minded developers, 
                         seeing design turning into features are extreamly fulfilling</p>
                     
-                    <img class="displayed" src="women.jpg" alt="dimple" style="width:100%;">
-                </div>
+                    <img class="displayed" src="women.jpg" alt="dimple" style="width:100%;">               
+                </article>
             </div>
-
+            
             <div class="container">
-                <div>
+                <article>
                     <h4 class="text-warning"> When I'm not coding, I am likely to be found on </h5>
                     <ul>
                         <li>Walking on trails</li>
@@ -56,13 +63,14 @@
                         <li>New Opportunities</li>
                         <li>Pro bono Projects</li>
                     </ol>
-                </div>
+                </article>
             </div>
-    </div>
+        </main>
 
-    <div id=contact class="container">
+        <!-- contact info with social media-->
+        <div id=contact class="container">
             <div>        
-                <h2 class="text-warning">CONTACT ME</h2>
+                <h2 class="text-warning">Contact Me</h2>
                 <p> Lets connect and disucss code, ideas, technology or anything else on your mind</p>
                 <p style="text-align: center"> 
                         <span>Email me</span>
@@ -70,23 +78,25 @@
                 </p>
             </div>
 
-        <div class="text-white social-icon">
-            <p> Please find me on </p>
+            <div class="text-white social-icon">
+                <p> Please find me on </p>
 
-            <hr>
+                <hr>
 
-            <a href="https://www.linkedin.com/in/dimplej" target="_blank"><i
-                            class="fa fa-2x  fa-linkedin social-icon"></i></a>
-            <a href="https://www.github.com/doshid20" target="_blank"><i class="fa fa-2x fa-github social-icon"></i></a>
-        </div>
+                <a href="https://www.linkedin.com/in/dimplej" target="_blank"><i
+                                class="fa fa-2x  fa-linkedin social-icon"></i></a>
+                <a href="https://www.github.com/doshid20" target="_blank"><i class="fa fa-2x fa-github social-icon"></i></a>
+            </div>
             
-    </div>
+        </div>
    
-    <footer class="container">
-        <p>copyright @
-        <script type="text/javascript"> document.write(new Date().getFullYear());</script>
-        </p>
-    </footer>
+        <!-- footer -->
+
+        <footer class="container">
+            <p>copyright @
+            <script type="text/javascript"> document.write(new Date().getFullYear());</script>
+            </p>
+        </footer>
 
 </body>
 
