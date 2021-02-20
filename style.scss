@@ -6,7 +6,7 @@ $primary-color:Orangered;
 $bg-color: whitesmoke;
 $link-color: blue;
 
-/* general body elements property */
+/* general elements property */
 
 body {
     background-color: black;
@@ -37,12 +37,12 @@ i {
 }
 
 hr {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border: none;
     background: $primary-color;
     color: $primary-color;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -53,6 +53,32 @@ footer {
     color: black;
     padding: 1rem;
 }
+
+ul {
+    display: inline-block;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+
+}
+
+
+ol {
+    display: inline-block;
+    text-align: center;
+}
+
+img.displayed {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+/* container class property */
 
 .container {
     background-color: $bg-color;
@@ -68,6 +94,8 @@ footer {
         'Helvetica Neue',
         sans-serif;
 }
+
+/* Navigation related classes and properties */
 
 .nav-bar {
     position: sticky;
@@ -93,6 +121,8 @@ footer {
     background-color: gray;
 }
 
+/* nested banner */
+
 .banner {
     position: relative;
     top: 0;
@@ -117,28 +147,7 @@ footer {
     width: 100%;
 }
 
-ul {
-    display: inline-block;
-    list-style-type: square;
-    list-style-position: inside;
-    text-align: left;
-
-}
-
-
-ol {
-    display: inline-block;
-    text-align: center;
-}
-
-img.displayed {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
-    max-height: 200px;
-}
+/* misc properties used */
 
 .social-icon {
     text-align: center;
