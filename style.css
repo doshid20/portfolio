@@ -1,0 +1,134 @@
+/* css properties */
+/* primary color variable */
+/* general body elements property */
+body {
+  background-color: black;
+  margin: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,
+h2,
+h5,
+p {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+i {
+  color: blue;
+  padding: .5em;
+}
+
+hr {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: Orangered;
+  color: Orangered;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+footer {
+  text-align: center;
+  color: black;
+  padding: 1rem;
+}
+
+.container {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  overflow: hidden;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.nav-bar a {
+  text-align: right;
+  color: whitesmoke;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-bar a:hover {
+  background-color: gray;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  text-align: center;
+  color: black;
+}
+
+.banner .banner_text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: cursive;
+  font-size: larger;
+  color: whitesmoke;
+  padding: auto;
+}
+
+.banner img {
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  text-align: center;
+}
+
+img.displayed {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.social-icon {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-warning {
+  color: Orangered;
+}
+/*# sourceMappingURL=style.css.map */
