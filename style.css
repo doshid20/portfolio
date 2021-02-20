@@ -1,6 +1,6 @@
 /* css properties */
 /* primary color variable */
-/* general body elements property */
+/* general elements property */
 body {
   background-color: black;
   margin: 5%;
@@ -21,12 +21,12 @@ i {
 }
 
 hr {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border: none;
   background: Orangered;
   color: Orangered;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -38,12 +38,35 @@ footer {
   padding: 1rem;
 }
 
+ul {
+  display: inline-block;
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  text-align: center;
+}
+
+img.displayed {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* container class property */
 .container {
   background-color: whitesmoke;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Navigation related classes and properties */
 .nav-bar {
   position: -webkit-sticky;
   position: sticky;
@@ -71,9 +94,15 @@ footer {
 }
 
 .nav-bar a:hover {
-  background-color: gray;
+  background-color: Orangered;
+  border-bottom: 3px solid orange;
 }
 
+.nav-bar a:active {
+  background-color: gold;
+}
+
+/* nested banner */
 .banner {
   position: relative;
   top: 0;
@@ -99,29 +128,25 @@ footer {
   width: 100%;
 }
 
-ul {
-  display: inline-block;
-  list-style-type: square;
-  list-style-position: inside;
-  text-align: left;
-}
-
-ol {
-  display: inline-block;
-  text-align: center;
-}
-
-img.displayed {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 200px;
-  max-height: 200px;
-}
-
+/* misc properties used */
 .social-icon {
   text-align: center;
+}
+
+.social-icon a:visited i {
+  color: purple;
+}
+
+.social-icon a:active i {
+  color: gold;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+a:visited {
+  color: purple;
 }
 
 .center {
@@ -129,6 +154,10 @@ img.displayed {
 }
 
 .text-warning {
+  color: Orangered;
+}
+
+p a:hover {
   color: Orangered;
 }
 /*# sourceMappingURL=style.css.map */
